@@ -1,0 +1,16 @@
+.descriere{
+    max-width: 300px;
+    margin-left: 50px;
+    top: 20%;
+}
+
+p{
+    padding-top: 200px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    
+}

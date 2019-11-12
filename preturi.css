@@ -1,0 +1,40 @@
+.tabel{
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    top: 20%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table{
+    display: table;
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.table, th, td{
+    border: 1px solid black;
+}
+
+.table th{
+    background: #333;
+    font-size: 22px;
+    color: #fff;
+}
+
+.table td{
+    font-size: 22px;
+    background:#4caf50;
+    padding-left: 5px;
+    color: #fff;
+}
+
+tr:hover td{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <script src="https://kit.fontawesome.com/bcb0d62da9.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cabinet Dr Virgil Tapoc</title>
+</head>
+<body>
+    <div class="header">
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" >Acasa</a>
+            <a href="./despre.html">Despre Noi</a>
+            <a href="./pachete.html">Pachete</a>
+            <a href="./preturi.html">Preturi</a>
+            <a href="./contact.html" class = "active">Contact</a>
+            <!-- acesta este folosit pentru deschide si inchide navigatia pe ecranuri mici -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="googleMaps" id="Maps">
+        </div>
+        <h2 id="adresa"><a href="http://www.google.com/maps/place/44.452811, 26.092679" target="_blank">Adresa: Bld Iancu de Hunedoara 25 Bloc 2 Scara A ap 7</a></h2>
+    </div>
+    <script src="./menu.js"></script>
+    <script src="./maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNawJAA_aeuCXVoN98gnyB0jDIWD12jvk&callback=myMap"></script>
+</body>
+</html>

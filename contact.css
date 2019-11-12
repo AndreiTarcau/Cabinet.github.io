@@ -1,0 +1,23 @@
+.googleMaps{
+    max-width: 540px;
+    height: 300px;
+    margin: 0 auto;
+    top: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#adresa{
+    position:absolute;
+    margin-left:585px;
+    margin-top: 200px;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+#adresa a{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+}
