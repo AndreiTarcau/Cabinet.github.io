@@ -93,6 +93,21 @@
     .price{
         margin-left: 175px;
     }
+	.single-price:hover{
+    background: #4caf50;
+    color: #fff;
+    box-shadow: 0 0 15 rgba(0, 0, 0, 1);
+    transform: scale(1.03);
+    z-index: 1;
+    border-radius: 20px;
+	}
+	.single-price:hover .price{
+    border-color: #fff;
+	}
+	.single-price:hover a{
+    background: #262626;
+    color: #fff;
+	}
     
 }
 
@@ -104,4 +119,20 @@
     .price{
         margin-left: 75px;
     }
+	.single-price:hover{
+    background: #4caf50;
+    color: #fff;
+    box-shadow: 0 0 15 rgba(0, 0, 0, 1);
+    transform: scale(1.03);
+    z-index: 1;
+    border-radius: 20px;
+	}
+	.single-price:hover .price{
+    border-color: #fff;
+	}
+	.single-price:hover a{
+    background: #262626;
+    color: #fff;
+	}
+
 }
