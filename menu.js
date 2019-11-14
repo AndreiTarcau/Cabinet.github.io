@@ -15,7 +15,7 @@ let nav = document.getElementById('myTopnav');
 
         nav.style.background = " #333";
         nav.style.boxShadow = "0px 4px 2px  #333";
-        nav.style.opacity = "0.8";
+        nav.style.opacity = "1";
         nav.style.transition = "0.7s";
     }else{
         nav.style.background = " #333";
